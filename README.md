@@ -13,14 +13,14 @@ git clone https://github.com/Yextep/AIO
 ```
 Accedemos a la carpeta
 ```bash
-cd AIO
+cd aio
 ```
 Damos los Permisos
 ```bash
-chmod +x AIO.sh
+chmod +x aio.sh
 ```
 Ejecutamos
 ```bash
-./AIO.sh
+./aio.sh
 ```
 Por último seleccionas lo que quieras instalar, escribes el numero o los numeros separados para instalar varios, o de lo contrario escribe la ultima opción y descarga todo.
