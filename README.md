@@ -23,4 +23,19 @@ Ejecutamos
 ```bash
 ./aio.sh
 ```
-Por último seleccionas lo que quieras instalar, escribes el numero o los numeros separados para instalar varios, o de lo contrario escribe la ultima opción y descarga todo.
+Tambien puedes pasar selecciones directamente:
+
+```bash
+./aio.sh python npm
+./aio.sh 1 7
+./aio.sh all --upgrade
+```
+
+Opciones utiles:
+
+```bash
+./aio.sh --dry-run 1 7      # muestra lo que haria sin instalar
+./aio.sh --verify-only      # verifica Python, Chromium, Puppeteer y Playwright
+```
+
+La opcion `python` instala `python3`, `pip3`, `venv`, `virtualenv`, `python3-dev` y herramientas de compilacion. La opcion `npm` instala Node.js, npm, Chromium, Puppeteer y Playwright, y configura Chromium para entornos tipo proot usando `--no-sandbox` en las verificaciones.
